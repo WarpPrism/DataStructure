@@ -160,7 +160,7 @@ void Instruction() {
 }
 
 void ATree() {
-	cout << "            /_\\" << endl;
+    cout << "            /_\\" << endl;
     cout << "           /_\\_\\" << endl;
     cout << "          /_/_/_\\" << endl;
     cout << "          /_\\_\\_\\" << endl;
@@ -175,7 +175,7 @@ void ATree() {
 }
 
 void Info() {
-	  cout << "|=======================================|" << endl;
+    cout << "|=======================================|" << endl;
     cout << "|                                       |" << endl;
     cout << "|              Binary Tree              |" << endl;
     cout << "|           Author:WarpPrism            |" << endl;
