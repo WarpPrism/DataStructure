@@ -42,7 +42,7 @@ Status SearchHash(HashTable H, int key, int *addr) {
     *addr = Hash(key);
     while (H.elem[*addr] != key) {
         *addr = (*addr + 1) % m;
-        if (*addr = Hash(key)) {
+        if (*addr == Hash(key)) {
             cout << "Can't find the key." << endl;
             return UNSUCCESS;
         }
